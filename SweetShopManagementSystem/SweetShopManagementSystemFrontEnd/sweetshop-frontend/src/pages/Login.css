@@ -1,0 +1,84 @@
+/* Container */
+.auth-form {
+  width: 350px;
+  margin: 80px auto;
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.auth-form h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Input fields */
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-form input:focus {
+  border-color: #4cafef;
+  box-shadow: 0 0 6px rgba(76, 175, 239, 0.4);
+  outline: none;
+}
+
+/* Button */
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 14px;
+  background: #4cafef;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-form button:hover {
+  background: #2f9ce0;
+}
+
+.auth-form button:disabled {
+  background: #b0d7f5;
+  cursor: not-allowed;
+}
+
+/* Error message */
+.error-text {
+  margin-top: 12px;
+  color: #e74c3c;
+  font-size: 14px;
+}
+
+/* Register link */
+.auth-form p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-form a {
+  color: #4cafef;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-form a:hover {
+  text-decoration: underline;
+}
